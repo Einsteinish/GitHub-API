@@ -69,6 +69,7 @@ if __name__ == '__main__':
     (note) All args are optional: '-r', '-w', and '-s'
     '''
 
+    # Gets the args (uses defaults values if not given as args)
     r, w, s = check_arg(sys.argv[1:])
     print('Inputs: repo=%s weeks=%s sort=%s' %(r,w,s))
 
