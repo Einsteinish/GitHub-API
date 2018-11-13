@@ -32,6 +32,18 @@ week = 48 (how many past weeks, default=52)
 sort = dsc or asc (default: asc)
 
 
+## Testing and Caching
+
+We can test the API with "curl":
+
+$ curl -i https://api.github.com/repos/kubernetes/kubernetes/stats/commit_activity
+
+
+We may want to wait for 1-2 minutes before we run our Python code.
+
+"Computing repository statistics is an expensive operation, so we try to return cached data whenever possible. If the data hasn't been cached when you query a repository's statistics, you'll receive a 202 response; a background job is also fired to start compiling these statistics. Give the job a few moments to complete, and then submit the request again. If the job has completed, that request will receive a 200 response with the statistics in the response body"
+
+
 
 # Sample 
 
