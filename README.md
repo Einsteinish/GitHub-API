@@ -170,35 +170,6 @@ Wednesday 29.2
 
 
 
-## Output 5
-
-(venv) $ python ask_ki2.py
-
-Inputs: repo=kubernetes/kubernetes weeks=52 sort=dsc
-
-
---- Commits (average) ---
-
-Wednesday 29.2
-
-Thursday 28.4
-
-Tuesday 27.1
-
-Friday 25.3
-
-Monday 25.3
-
-Saturday 6.2
-
-Sunday 5.3
-
-
---- The most commits ---
-
-Wednesday 29.2
-
-(venv) $ 
 
 
 ## Refs
