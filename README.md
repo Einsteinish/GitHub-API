@@ -32,7 +32,7 @@ repo = 'kubernetes/kubernetes' (username/repo)
 
 week = 48 (how many past weeks, default=52)
 
-sort = dsc or asc (default: asc)
+sort = dsc or asc (default: dsc)
 
 
 ## Testing and Caching
