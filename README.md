@@ -1,6 +1,9 @@
 # GitHub-API : commit activity stats with Python
+
 REST API v3 with Python's requests
+
 requests.get('https://api.github.com/repos/%s/stats/commit_activity' % repo)
+
 where repo = 'kubernetes/kubernetes' for example.
 
 
